@@ -6,5 +6,6 @@
   "configs": {
     "captions-study": {
       "path": "captions/config.json"
+    }
   }
 }
