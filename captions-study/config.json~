@@ -389,7 +389,7 @@
             }
         },
         "introduction": {
-            "path": "captions-study/assets/introduction.md",
+            "path": "captions/assets/introduction.md",
             "response": [],
             "type": "markdown"
         }
@@ -452,7 +452,7 @@
     "uiConfig": {
         "autoDownloadStudy": false,
         "contactEmail": "contact@revisit.dev",
-        "helpTextPath": "captions-study/assets/help.md",
+        "helpTextPath": "captions/assets/help.md",
         "logoPath": "revisitAssets/revisitLogoSquare.svg",
         "withProgressBar": true,
         "withSidebar": true
