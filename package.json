@@ -67,6 +67,7 @@
     "react-vega": "^7.6.0",
     "rehype-raw": "^7.0.0",
     "remark-gfm": "^4.0.1",
+    "supabase": "^2.81.2",
     "ts-json-schema-generator": "^2.4.0",
     "typedoc": "^0.28.13",
     "typedoc-plugin-markdown": "^4.9.0",
