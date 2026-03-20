@@ -38,106 +38,6 @@
                 "path": "charts/1 line charts/global-plastics-production.png"
             }
         },
-        "chart-10": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "Aquaculture production in 2023 is overwhelmingly concentrated in Asia, with China alone accounting for an outsized share of global farmed fish output — dwarfing production in every other region — while most of Africa and parts of the Americas and Middle East produce very little farmed seafood.",
-                "ai-rating": "",
-                "expert-caption": "Most of the world’s growth in aquaculture production has come from East Asia and the Pacific. For example, China produces more food from aquaculture than any other country.",
-                "expert-rating": "",
-                "path": "charts/4 cloropleth charts/aquaculture-farmed-fish-production.png"
-            }
-        },
-        "chart-11": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "Transport CO₂ emissions in 2023 are heavily concentrated in the United States and China, which appear as the darkest regions on the map, while most of Africa and parts of South and Southeast Asia generate comparatively little transport-related carbon — reflecting stark differences in vehicle ownership, infrastructure, and economic activity.",
-                "ai-rating": "",
-                "expert-caption": "Emissions are measured in tonnes. Domestic aviation and shipping emissions are included at the national level.International aviation and shipping emissions are included only at the global level.",
-                "expert-rating": "",
-                "path": "charts/4 cloropleth charts/co2-emissions-transport.png"
-            }
-        },
-        "chart-12": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": " In 2025, population growth is starkly divided along geographic lines: sub-Saharan Africa is growing fastest, with several countries exceeding 2–3% annually, while Russia, Eastern Europe, and parts of East Asia are experiencing natural population decline, reflecting a world where demographic trajectories are pulling in opposite directions.",
-                "ai-rating": "",
-                "expert-caption": "Natural population growth is the population increase determined by births and deaths. Migration flows are not taken into account. Future projections are based on the UN medium scenario.",
-                "expert-rating": "",
-                "path": "charts/4 cloropleth charts/natural-population-growth.png"
-            }
-        },
-        "chart-13": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "Protein sources vary dramatically by country and income level: Nigeria and India draw 89% and 75% of their protein from plants respectively, while the United States gets 41% from meat and Iceland gets 23% from dairy, reflecting deep differences in diet, culture, and agricultural systems.",
-                "ai-rating": "",
-                "expert-caption": "Globally, less than 10% of total protein intake comes from seafood. In some countries, it accounts for a much larger share: around one-third in the Maldives and one-fifth in Japan, Iceland, and Cambodia.",
-                "expert-rating": "",
-                "path": "charts/5 100% stacked bar charts/per-capita-sources-of-protein.png"
-            }
-        },
-        "chart-14": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-15": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-16": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-17": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-18": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-19": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
         "chart-2": {
             "baseComponent": "chart",
             "parameters": {
@@ -148,107 +48,7 @@
                 "path": "charts/1 line charts/cumulative-gravitational-wave-observations.png"
             }
         },
-        "chart-20": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-21": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-22": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-23": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-24": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-25": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-26": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-27": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-28": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-29": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-3": {
+         "chart-3": {
             "baseComponent": "chart",
             "parameters": {
                 "ai-caption": "The number of objects launched into space remained roughly stable at under 200 per year from the late 1950s through the 2010s, before exploding to nearly 4,000 in 2025 — a surge driven almost entirely by commercial satellite mega-constellations such as Starlink.",
@@ -256,76 +56,6 @@
                 "expert-caption": "As our presence in space has increased, so has the issue of pollution. Our many launches into space have created debris, including abandoned rocket stages, old satellites, and other discarded equipment. This debris poses a significant risk to future space exploration, as it can collide with and damage functioning satellites or even endanger astronauts on space missions. This is an ongoing challenge that will require continued research and innovation to solve.",
                 "expert-rating": "",
                 "path": "charts/1 line charts/yearly-number-of-objects-launched-into-outer-space.png"
-            }
-        },
-        "chart-30": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-31": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-32": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-33": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-34": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-35": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
-            }
-        },
-        "chart-36": {
-            "baseComponent": "chart",
-            "parameters": {
-                "ai-caption": "",
-                "ai-rating": "",
-                "expert-caption": "",
-                "expert-rating": "",
-                "path": ""
             }
         },
         "chart-4": {
@@ -386,6 +116,276 @@
                 "expert-caption": "Consumption trends vary significantly across the world. In China, pigmeat accounts for around two-thirds of per capita meat consumption. In Argentina, beef and buffalo meat dominate, accounting for more than half of consumption. New Zealanders have a much stronger preference for mutton & goat meat relative to the global average.",
                 "expert-rating": "",
                 "path": "charts/3 stacked bar charts/per-capita-meat-type.png"
+            }
+        },
+        "chart-10": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Aquaculture production in 2023 is overwhelmingly concentrated in Asia, with China alone accounting for an outsized share of global farmed fish output — dwarfing production in every other region — while most of Africa and parts of the Americas and Middle East produce very little farmed seafood.",
+                "ai-rating": "",
+                "expert-caption": "Most of the world’s growth in aquaculture production has come from East Asia and the Pacific. For example, China produces more food from aquaculture than any other country.",
+                "expert-rating": "",
+                "path": "charts/4 cloropleth charts/aquaculture-farmed-fish-production.png"
+            }
+        },
+        "chart-11": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Aquaculture production in 2023 is overwhelmingly concentrated in Asia, with China alone accounting for an outsized share of global farmed fish output — dwarfing production in every other region — while most of Africa and parts of the Americas and Middle East produce very little farmed seafood.",
+                "ai-rating": "",
+                "expert-caption": "Most of the world’s growth in aquaculture production has come from East Asia and the Pacific. For example, China produces more food from aquaculture than any other country.",
+                "expert-rating": "",
+                "path": "charts/4 cloropleth charts/per-capita-co2-emissions-from-domestic-aviation.png"
+            }
+        },
+        "chart-12": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Access to electricity in 2023 is nearly universal across the Americas, Europe, and most of Asia, but sub-Saharan Africa remains a stark exception — with a cluster of countries in Central and East Africa, including the DR Congo, Chad, and South Sudan, where fewer than 20% of people have access, highlighting one of the sharpest dimensions of global energy inequality.",
+                "ai-rating": "",
+                "expert-caption": "At a global level, the share of people with access to electricity has been steadily increasing over the last few decades. In 2000, 2 in 10 people lacked access to electricity; this number has since decreased, with fewer than 1 in 10 lacking access in recent years. Most of this increase has been driven by growth in low and middle-income economies. In many countries, this trend has been striking. While this trend has been positive across most regions, there are still some countries where most of the people do not have access to electricity.",
+                "expert-rating": "",
+                "path": "charts/4 cloropleth charts/share-of-the-population-with-access-to-electricity.png"
+            }
+        },
+        "chart-13": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Protein sources vary dramatically by country and income level: Nigeria and India draw 89% and 75% of their protein from plants respectively, while the United States gets 41% from meat and Iceland gets 23% from dairy, reflecting deep differences in diet, culture, and agricultural systems.",
+                "ai-rating": "",
+                "expert-caption": "It’s possible to get all of the protein we need from plant sources. However, to get all of the amino acids (the building blocks of protein) from a plant-based diet, one needs to have the right variety of foods. It requires a balance of staples such as cereals and more complete proteins such as legumes (peas and beans). Unfortunately, many in poorer countries are heavily reliant on cereals and lack this dietary diversity. In this case, animal protein sources can be vitally important for human health.",
+                "expert-rating": "",
+                "path": "charts/5 100% stacked bar charts/per-capita-sources-of-protein.png"
+            }
+        },
+        "chart-14": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Electricity generation mixes vary enormously across countries in 2025 — Norway generates 99% of its power from renewables while South Africa relies on fossil fuels for 84%, and France stands out for deriving 69% of its electricity from nuclear power, illustrating the widely divergent paths countries have taken toward decarbonizing their grids.",
+                "ai-rating": "",
+                "expert-caption": "In Iceland and Uruguay, for example, most electricity comes from renewables – particularly hydropower. In others, such as France and Sweden, nuclear energy plays a dominant role.",
+                "expert-rating": "",
+                "path": "charts/5 100% stacked bar charts/elec-mix-bar.png"
+            }
+        },
+        "chart-15": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Across nearly all surveyed Asian countries, consumers place primary responsibility for sustainability on product brands and manufacturers, followed closely by governments, with retailers and individual consumers seen as having a lesser role — though the balance shifts notably in India, where retailers are seen as nearly as responsible as brands.",
+                "ai-rating": "",
+                "expert-caption": "In almost all countries, consumers expect brand owners, along with governments, to lead the sustainability charge. Percentage share of respondents that chose one of four sectors to play primary responsibility in helping consumers to shop for sustainable products.",
+                "expert-rating": "",
+                "path": "charts/5 100% stacked bar charts/Sustainability-charge.png"
+            }
+        },
+        "chart-16": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Deaths from outdoor particulate matter air pollution in the United States have fallen dramatically — from nearly 180,000 annually in 1990 to around 70,000 by 2023 — a roughly 60% decline driven largely by clean air regulations and fuel efficiency improvements.",
+                "ai-rating": "",
+                "expert-caption": "We see that in recent decades, the death rates from total air pollution have declined: since 1990, death rates have nearly halved.",
+                "expert-rating": "",
+                "path": "charts/6 area charts/annual-deaths-from-outdoor-air-pollution.png"
+            }
+        },
+        "chart-17": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Global freshwater use has grown sixfold since 1901, rising from roughly 700 billion m³ to nearly 4 trillion m³ by 2014, with the sharpest acceleration occurring after 1950 as population growth and agricultural expansion drove surging demand.",
+                "ai-rating": "",
+                "expert-caption": "Rates of global freshwater use increased sharply from the 1950s onwards but since 2000 appear to be plateauing, or at least slowing.",
+                "expert-rating": "",
+                "path": "charts/6 area charts/global-freshwater-use-over-the-long-run.png"
+            }
+        },
+        "chart-18": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "US agricultural area expanded explosively from near zero in 1600 to a peak of roughly 450 million hectares around 1950, before declining modestly to about 400 million hectares by 2023 — suggesting that productivity gains have allowed some farmland to be retired even as food production has continued to grow.",
+                "ai-rating": "",
+                "expert-caption": "Expanding agriculture has been the biggest driver of the destruction of the world’s wildlands. This expansion of agricultural land has now come to an end. After millennia, we have passed the peak, and in recent years global agricultural land use has declined.",
+                "expert-rating": "",
+                "path": "charts/6 area charts/total-agricultural-area-over-the-long-term.png"
+            }
+        },
+        "chart-19": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Global emissions of ozone-depleting substances collapsed from a peak of over 1.6 million tonnes in 1989 to near zero by the mid-2000s, driven almost entirely by the phaseout of CFCs following the Montreal Protocol — making it one of the most successful examples of coordinated international environmental action in history, and a rare case where humanity identified, agreed upon, and effectively solved a global atmospheric crisis.",
+                "ai-rating": "",
+                "expert-caption": "In 1987, the world signed the Montreal Protocol: the first global agreement to reduce the use of substances that deplete the ozone layer, known as ‘ozone-depleting substances. These are substances such as chlorofluorocarbons (CFCs); hydrochlorofluorocarbons (HFCs); and halon gases used in refrigerators, deodorants, and other industrial processes. Since this agreement entered into force in 1989, global emissions of ozone-depleting substances have fallen by more than 99% as manufacturers have substituted them for less harmful alternatives.",
+                "expert-rating": "",
+                "path": "charts/7 stacked area charts/ozone-depleting-substance-consumption.png"
+            }
+        },
+        "chart-20": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Global sulphur dioxide emissions rose steeply through the 20th century, peaking around 1980 at over 140 million tonnes, before declining sharply as Europe and North America cleaned up their energy systems — even as Asia's share has grown in recent decades.",
+                "ai-rating": "",
+                "expert-caption": "The chart shows total global annual emissions of SO2 by world region, extending from 1850 to 2010. Europe was first to see a rapid rise in sulphur pollution, followed closely by North America in the mid-19th century. Driven by the increased energy demand of industrialization, emissions in Europe and North America continued to grow through the 19th and 20th century. But then the increase came to an end.",
+                "expert-rating": "",
+                "path": "charts/7 stacked area charts/SO2Emissions.png"
+            }
+        },
+        "chart-21": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "The world's urban population has grown from under 1 billion in 1940 to over 4 billion today, and is projected to reach roughly 7 billion by 2050, while the rural population has plateaued and will remain around 3 billion.",
+                "ai-rating": "",
+                "expert-caption": "In the chart, we see estimates of urban and rural populations in absolute terms, projected through to 2050. Projected population growth based on the UN's medium fertility scenario. By 2050, the global population is projected to increase to around 9.8 billion. It's estimated that more than twice as many people in the world will be living in urban than in rural settings.",
+                "expert-rating": "",
+                "path": "charts/7 stacked area charts/urban-and-rural-population-2050.png"
+            }
+        },
+        "chart-22": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Americans are notably pessimistic about the future of the family, with 40% expressing pessimism compared to just 25% who feel optimistic, according to Pew Research Center data.",
+                "ai-rating": "",
+                "expert-caption": "Americans are more pessimistic than optimistic about the institution of marriage and the family.",
+                "expert-rating": "",
+                "path": "charts/8 pie charts/future-of-family.png"
+            }
+        },
+        "chart-23": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "A September 2025 Pew Research survey found that 69% of Americans believe Trump is exercising more presidential power than his predecessors — and of those, 49% view this as bad for the country while only 12% consider it good, suggesting broad public awareness of an expanding executive footprint but deep skepticism about it.",
+                "ai-rating": "",
+                "expert-caption": "Around seven-in-ten Americans (69%) say President Donald Trump is trying to exert more power than his predecessors. And most of those who say this describe Trump’s efforts as a bad thing for the country.",
+                "expert-rating": "",
+                "path": "charts/8 pie charts/trump-presidential-power.png"
+            }
+        },
+        "chart-24": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "A 2022 Pew survey found that 61% of Americans view the legalization of same-sex marriage as good for society, with 36% saying \"very good,\" while 37% consider it bad — reflecting a country still significantly divided on the issue.",
+                "ai-rating": "",
+                "expert-caption": "About six-in-ten adults (61%) express a positive view of the impact of same-sex marriage being legal, including 36% who say it is very good for society. Roughly four-in-ten have a negative view (37%), with 19% saying it is very bad.",
+                "expert-rating": "",
+                "path": "charts/8 pie charts/same_sex_marriage_legalization.png"
+            }
+        },
+        "chart-25": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "The per capita death rate from famines has fallen dramatically since its mid-20th century peaks — driven largely by the WWII-era Bengal famine and Mao's Great Leap Forward in the 1960s — dropping to near zero since the 1980s, reflecting how advances in agriculture, global food trade, early warning systems, and humanitarian response have made mass famine deaths increasingly rare despite a growing world population.",
+                "ai-rating": "",
+                "expert-caption": "The famine mortality rate fell to very low levels over the second half of the 20th century. The sharp reduction in famine mortality represents \"one of the great unacknowledged triumphs of our lifetime\", as famine researcher, Alex de Waal describes it. As de Waal explains, a continued decline is by no means assured: the future of famine will depend largely on the nature and prevalence of war.",
+                "expert-rating": "",
+                "path": "charts/9 histograms/death-rate-from-famines-by-decade.png"
+            }
+        },
+        "chart-26": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Disaster deaths have fallen dramatically over the past century — from over 500,000 per year on average in the 1920s to roughly 50,000–80,000 in recent decades — reflecting advances in early warning systems, infrastructure, and disaster preparedness.",
+                "ai-rating": "",
+                "expert-caption": "Deaths from disasters have fallen significantly over the last century as a result of early warning systems, better infrastructure, more productive agriculture, and coordinated responses.",
+                "expert-rating": "",
+                "path": "charts/9 histograms/decadal-average-annual-number-of-deaths-from-disasters.png"
+            }
+        },
+        "chart-27": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "The total number of armed conflicts globally has risen significantly since 2010, driven primarily by increases in non-state conflicts and one-sided violence, reaching nearly 190 in the early 2020s — well above the post-Cold War lows of the mid-2000s.",
+                "ai-rating": "",
+                "expert-caption": "As the chart shows, at least 150 ongoing armed conflicts have been recorded each year recently. This number is up from previous decades, but even then, it rarely fell below 100, and there has been no year without armed conflict for centuries. Wars — usually defined as armed conflicts that are especially deadly — have been rarer, with between 0 and 12 active wars per year. Still, there have been very few years without any.",
+                "expert-rating": "",
+                "path": "charts/9 histograms/number-of-armed-conflicts.png"
+            }
+        },
+        "chart-28": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Countries where diets rely heavily on cereals, roots, and tubers tend to have higher rates of micronutrient deficiency in children, with African nations like Afghanistan, Ethiopia, and the Central African Republic showing both the highest cereal dependence and the worst hidden hunger scores.",
+                "ai-rating": "",
+                "expert-caption": "In the chart, you can see the hidden hunger index in children versus the share of dietary energy attained through the consumption of cereals, roots, and tubers. Overall, we see that countries where diets are higher in micronutrient-poor cereals also tend to have higher levels of micronutrient deficiency.",
+                "expert-rating": "",
+                "path": "charts/10 scatterplots/hidden-hunger-index-vs-share-of-energy-supply-from-cereals-roots-and-tubers.png"
+            }
+        },
+        "chart-29": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Most countries saw outdoor air pollution deaths remain roughly stable or decline between 1990 and 2023, as points cluster near the diagonal, though large populous nations like China and Russia still account for enormous absolute death tolls in both periods.",
+                "ai-rating": "",
+                "expert-caption": "The total number of deaths from outdoor air pollution has increased in most countries in recent decades. In some cases, this has occurred because outdoor air pollution has increased. However, in many cases, the largest driver of this change has been population growth and aging populations.",
+                "expert-rating": "",
+                "path": "charts/10 scatterplots/outdoor-air-pollution-deaths-in-1990-vs-2023.png"
+            }
+        },
+        "chart-30": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Undernourishment falls sharply as countries grow richer, with nations above roughly $15,000 GDP per capita experiencing near-zero food insecurity, while Somalia and Haiti — among the poorest — see over 50% of their populations going hungry.",
+                "ai-rating": "",
+                "expert-caption": "Overall, we see that countries with lower GDP per capita experience more severe deficiency and malnutrition issues in children.",
+                "expert-rating": "",
+                "path": "charts/10 scatterplots/share-undernourished-vs-gdp-pc.png"
+            }
+        },
+        "chart-31": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Wealthier nations tend to have higher interpersonal trust, with Scandinavian countries like Denmark and Norway leading at over 70%, while poorer nations generally cluster at lower trust levels — though China is a notable outlier, showing high trust despite moderate income.",
+                "ai-rating": "",
+                "expert-caption": "The following chart shows the relationship between GDP per capita and trust, as measured by the World Values Survey. There is a strong positive relationship: countries with higher self-reported trust attitudes are also countries with higher economic activity. When digging deeper into this connection using more detailed data and economic analysis, researchers have found evidence of a causal relationship, suggesting that trust does indeed drive economic growth and not just correlate with it.",
+                "expert-rating": "",
+                "path": "charts/11 bubble charts/share-agreeing-most-people-can-be-trusted-vs-gdp-per-capita.png"
+            }
+        },
+        "chart-32": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "There is a broad negative relationship between trust and cynicism across countries: Sweden and China show relatively high interpersonal trust alongside low beliefs that others exploit you, while countries like Turkey and Uganda combine low trust with high perceptions of opportunism.",
+                "ai-rating": "",
+                "expert-caption": "This chart compares the percentage of respondents who agree with the statement \"most people can be trusted\" against those who agree that \"most people would try to take advantage of you if they had a chance.\" Consider Peru again as an example. You find it in the bottom right corner of the chart. A significant share of Peruvians report thinking that others they interact with would try to take advantage of them if given the chance. Correspondingly, only a small fraction of people in the country report believing that others can be trusted.",
+                "expert-rating": "",
+                "path": "charts/11 bubble charts/share-agreeing-most-people-can-be-trusted-vs-most-people-would-try-to-take-advantage-of-you.png"
+            }
+        },
+        "chart-33": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Wealthier countries are almost universally more urbanized, but the relationship is imperfect — Venezuela is highly urbanized despite low GDP, while Sri Lanka and Bahrain remain surprisingly rural relative to their income levels.",
+                "ai-rating": "",
+                "expert-caption": "Here we see a strong relationship between urbanization and income: as countries get richer, they tend to become more urbanized.",
+                "expert-rating": "",
+                "path": "charts/11 bubble charts/urbanization-vs-gdp.png"
+            }
+        },
+        "chart-34": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Heart disease and cancer together account for over half of all global deaths, killing roughly 28.5 million people in 2019, while war, terrorism, and homicide combined represent less than 1% of mortality.",
+                "ai-rating": "",
+                "expert-caption": "Shown in blue on the left are non-communicable diseases; diseases which cannot be passed from person to person. The two most common causes of death fall into this group: cancers kill 18% of people and cardiovascular diseases – such as stroke and ischemic heart disease – are responsible for one-in-three deaths in the world. Shown in red are communicable or infectious diseases; diseases that are caused by a pathogen which can be passed from person to person. In green you see injuries. This is a very wide category which includes accidents – such as car crashes and falls from stairs or ladders – as well as intentional injuries like homicides, war deaths, and suicides.",
+                "expert-rating": "",
+                "path": "charts/12 treemaps/causes-of-death-2019-full.png"
+            }
+        },
+        "chart-35": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "Plants utterly dominate life on Earth, comprising 82% of all biomass at 450 billion tonnes of carbon, while all animals combined represent just 0.4% of total biomass — and within that tiny animal slice, arthropods (insects, spiders, crustaceans) are the largest group at 42%, with humans accounting for a mere 0.01% of total life on the planet.",
+                "ai-rating": "",
+                "expert-caption": "Plants – mainly trees – dominate life on Earth: they account for more than 82% of biomass. Surprisingly, in second place is the life we cannot see: tiny bacteria sum up to 13%. While our perceptions are often focused on the animal kingdom, it accounts for only 0.4%. Humans account for just 0.01% of the biomass, so we'd need about 70 trillion of us to match Earth's collective biomass.3",
+                "expert-rating": "",
+                "path": "charts/12 treemaps/Global-Taxa-Biomass.png"
+            }
+        },
+        "chart-36": {
+            "baseComponent": "chart",
+            "parameters": {
+                "ai-caption": "A treemap comparing jobs earning over $100,000 reveals that a bachelor's degree dramatically expands the range and number of high-paying occupations available — with degree holders having access to a diverse array of roles in finance, law, engineering, and management — while those without a degree are concentrated in a smaller set of roles including drivers, software developers, and skilled trades.",
+                "ai-rating": "",
+                "expert-caption": "For those without a bachelor’s degree, it’s about learning a trade or earning a management position. For those with a bachelor’s, the leading jobs are in software and engineering like you might expect, but there are also health-related jobs and still many others that fit in the “other” category.",
+                "expert-rating": "",
+                "path": "charts/12 treemaps/jobs_with over_100k_salary.png"
             }
         },
         "introduction": {
