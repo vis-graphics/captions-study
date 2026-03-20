@@ -5,7 +5,7 @@
   ],
   "configs": {
     "captions-study": {
-      "path": "captions-study/config.json"
+      "path": "captions/config.json"
     }
   }
 }
