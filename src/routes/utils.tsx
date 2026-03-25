@@ -16,7 +16,7 @@ import { getComponent } from '../utils/handleComponentInheritance';
 export function useStudyId(): string {
   const { studyId } = useParams();
 
-  return `${studyId}`;
+  return studyId ?? '';
 }
 
 export function useCurrentStep() {
