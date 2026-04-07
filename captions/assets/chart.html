@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Load revisit-communicate to be able to send data to reVISit -->
+    <script src="../../revisitUtilities/revisit-communicate.js"></script>
+  </head>
+
+  <body>
+    <img id="img" width="70%"></img>
+    <h2>Enter your caption:</h2>
+    <textarea id="user-caption" rows="10" cols="70"></textarea>
+    <button onClick="submit()">submit</button>
+    <p id="rating" style="display:none;">Your caption rating:</p>
+    <div id="expert-caption" style="display:none;">
+      <h2>Expert Caption:</h2>
+      <p class="text"></p>
+      <p class="text"></p>
+    </div>
+    <div id="ai-caption" style="display:none;">
+      <h2>AI Caption:</h2>
+      <p class="text"></p>
+      <p class="text"></p>
+    </div>
+  </body>
+
+  <script>
+    async function loadImg(path) {
+      const response = await fetch(path)
+      const blob = await response.blob()
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader()
+        reader.onload = () => {
+          const base64 = reader.result.split(',')[1]
+          resolve(base64)
+        }
+        reader.onerror = (error) => {
+          console.log(error)
+        }
+        reader.readAsDataURL(blob)
+      })
+    }
+    let path = ""
+    Revisit.onDataReceive((data) => {
+      path = data["path"]
+        document.getElementById("img").src = path
+        document.getElementById("expert-caption").getElementsByClassName("text")[0].innerHTML = data["expert-caption"]
+        document.getElementById("ai-caption").getElementsByClassName("text")[0].innerHTML = data["ai-caption"]
+        document.getElementById("expert-caption").getElementsByClassName("text")[1].innerHTML = "Rating: " + data["expert-rating"]
+        document.getElementById("ai-caption").getElementsByClassName("text")[1].innerHTML = "Rating: " +  data["ai-rating"]
+      })
+      
+      async function submit() {
+        //Revisit.postAnswers({'caption': document.getElementById("user-caption").value})
+        document.getElementById("expert-caption").style = ""
+        document.getElementById("ai-caption").style = ""
+        document.getElementById("rating").style = ""
+        let userRating = ""
+        // api call to get grade for user caption
+        try {
+
+        const rubric = `Accuracy (0-4 points): Does the caption correctly represent the data shown?
+- 4: All facts, numbers, and relationships are accurate
+- 3: Nearly all facts are accurate with only minor errors
+- 2: Some inaccuracies present but general message is discernible
+- 1: Multiple significant errors or misinterpretations
+- 0: Completely inaccurate or missing
+
+Completeness (0-4 points): Does the caption include all necessary elements?
+- 4: Identifies chart type, names variables, includes specific numbers, provides context
+- 3: Identifies most key elements with good coverage
+- 2: Covers main variables but may lack specifics or context
+- 1: Missing critical information
+- 0: Inadequate or missing
+
+Clarity (0-4 points): Is the caption easy to understand?
+- 4: Clear, concise, grammatically correct, easy to follow
+- 3: Generally clear and concise with only minor awkwardness
+- 2: Somewhat unclear with organizational or grammar issues
+- 1: Difficult to understand with significant problems
+- 0: Unintelligible or missing
+`
+        
+        const response = await fetch('https://project-vb489.vercel.app/api/claude.js', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            model: 'claude-sonnet-4-6',
+            max_tokens: 1000,
+            messages: [
+              {
+                role: "user",
+                content: [{
+                type: "image",
+                source: {
+                  type: "base64",
+                  media_type: "image/png",
+                  data: await loadImg(path)
+                }
+              },
+              {
+                type: 'text',
+                text: `Use this rubric: ${rubric} to evaluate this caption: ${document.getElementById("user-caption").value}. Give just the number as the response. Do not include any explanation. Your output should be one integer.`
+              }]
+              }
+            ]
+          })
+        })
+        
+        userRating = await response.json()
+        console.log(userRating)
+        if (typeof userRating.content !== undefined) {
+                userRating = userRating.content.filter(block => block.type === "text")
+                    .map(block => block.text)
+                    .join("\n")    
+        
+        } else {
+          userRating = "Could not load rating"
+        }
+        
+      } finally {
+        document.getElementById("rating").innerHTML = "Your caption rating: " + userRating;
+        Revisit.postAnswers({caption: document.getElementById("user-caption").value})
+        Revisit.postAnswers({'user-rating': userRating})
+      }
+    } 
+
+  </script>
+</html>

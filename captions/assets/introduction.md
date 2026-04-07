@@ -1,0 +1,3 @@
+# Introduction
+
+Welcome to the chart captions study. We are aiming to improve students' abilities to write quality captions for charts. In this study, you will first answer some basic demographics questions. Then, complete a pre-test where you will write captions for 12 different charts. Next, you will write and read existing captions for 24 more charts and recieve a rating scored with a rubric. Finally, you will complete a post-test where you will write captions for the same 12 charts at the start to see your improvement.
