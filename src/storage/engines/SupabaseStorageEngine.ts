@@ -666,7 +666,7 @@ export class SupabaseStorageEngine extends CloudStorageEngine {
       .select('data')
       .eq('studyId', '')
       .eq('docId', 'user-management')
-      .single();
+      .maybeSingle();
 
     if (error) {
       console.error(`Error fetching user management data for key ${key}:`, error);
